@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
   <title>Lionic</title>
+  <meta name="description" content="Lionic is simply a smarter way to make your legal online.">
 </head>
 
 <body>
@@ -308,13 +309,51 @@
         </address>
       </div>
     </section>
-    <!-- <section id="join-us" class="join-us">
+    <section id="join-us" class="join-us section-offset">
       <div class="container">
         <h2 class="section-heading join-us-heading">
           Join Us
         </h2>
+        <p class="section-desc join-us-desc">
+          Take control of&nbsp;your paid subscriptions today!
+        </p>
+        <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="join-us-form">
+          <fieldset class="join-us-form-fieldset">
+            <legend class="join-us-form-caption">
+              Client info
+            </legend>
+            <div class="join-us-form-client-info">
+              <input type="text" name="name" class="join-us-form-input" placeholder="Name" required>
+              <input type="email" name="email" class="join-us-form-input" placeholder="E-mail" required>
+              <input type="tel" name="phone" class="join-us-form-input" placeholder="Phone" required>
+              <select name="country" class="join-us-form-select" placeholder="Country">
+                <option value="Country" disabled selected>Country</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+                <option value="Spain">Spain</option>
+                <option value="Estonia">Estonia</option>
+              </select>
+            </div>
+            <div class="join-us-form-comment">
+              <textarea name="comment" class="join-us-form-textarea" placeholder="Comment"></textarea>
+            </div>
+          </fieldset>
+          <div class="join-us-form-btn-block">
+            <div class="join-us-form-btn-wrapper">
+              <button class="btn join-us-form-btn">
+                Get Started
+              </button>
+              <label class="join-us-form-checkbox">
+                <input type="checkbox" name="agreement" required>
+                I&nbsp;agree with the&nbsp;<a href="#">user agreement</a>
+              </label>
+            </div>
+          </div>
+        </form>
       </div>
-    </section> -->
+    </section>
   </main>
 
   <footer class="footer">
